@@ -16,15 +16,78 @@
             margin-left: 10px;
         }
 
+        .gray-box-top {
+            background-color: #cccccc;
+            margin-left: 6px;
+            margin-top: 6px;
+            width: 32%;
+            height: 90%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .gray-box-middle-tall {
+            background-color: #cccccc;
+            margin-left: 6px;
+            margin-top: 6px;
+            width: 23.75%;
+            height: 100px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .gray-box-middle-short {
+            background-color: #cccccc;
+            margin-left: 6px;
+            margin-top: 6px;
+            width: 23.75%;
+            height: 75px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        #gray-box-bottom-left {
+            background-color: #cccccc;
+            margin-left: 6px;
+            margin-top: 6px;
+            width: 48.5%;
+            height: 35px;
+            display: inline-block;
+            vertical-align: bottom;
+        }
+
+        #gray-box-bottom-right {
+            background-color: #cccccc;
+            margin-left: 6px;
+            margin-top: 6px;
+            width: 48.5%;
+            height: 90%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        h1 {
+            font-family: sans-serif;
+            margin: 10px;
+        }
 
     </style>
 </head>
   
 <body>
 
-    <div class="background-rect"></div>
-    <div class="background-rect"></div>
-    <div class="background-rect"></div>
+    <h1>AAAAAHHHHHH</h1>
+
+    <div class="background-rect">
+        <div class="gray-box-top"></div><div class="gray-box-top"></div><div class="gray-box-top"></div>
+    </div>
+    <div class="background-rect">
+        <div class="gray-box-middle-tall"></div><div class="gray-box-middle-short"></div><div class="gray-box-middle-tall"></div><div class="gray-box-middle-short"></div>
+    </div>
+    <div class="background-rect">
+        <div id="gray-box-bottom-left"></div><div id="gray-box-bottom-right"></div>
+    </div>
+
 
 
 </body>
